@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #fdf4ff;
+            color: #333;
+        }
+
+        header {
+            background: #7e22ce;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        nav {
+            background: #581c87;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .skills ul {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            gap: 10px;
+        }
+
+        .skills li {
+            background: #ec4899;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+        }
+
+        .project {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-left: 4px solid #ec4899;
+        }
+
+        .contact p {
+            margin: 10px 0;
+        }
+
+        footer {
+            text-align: center;
+            background: #581c87;
+            color: white;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #ec4899;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background: #db2777;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Neelima Darapureddi</h1>
+        <p>Web Developer | Designer | Freelancer</p>
+        <a href="#contact" class="btn">Contact Me</a>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <div class="card">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm a passionate web developer with experience in
+                HTML, CSS, JavaScript, and modern web technologies.
+                I enjoy creating responsive and user-friendly websites.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="card">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>SQL</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="card">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>A responsive personal portfolio website.</p>
+            </div>
+
+            <div class="project">
+                <h3>Agentic AI chatbot using langGraph and langChain and RAG</h3>
+                <p>Chatbot implementation using advanced AI technologies..</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="card">
+            <h2>Contact Me</h2>
+            <p>Email: neelima@email.com</p>
+            <p>Phone: +916305030712</p>
+            <p>LinkedIn: https://www.linkedin.com/in/neelima-darapureddi-b883392bb?utm_source=share_via&utm_content=profile&utm_medium=member_android</p>
+            <p>GitHub: https://github.com/Neelima630503</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Neelima Darapureddi. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
